@@ -1,4 +1,4 @@
-public class Main {
+public class Pb6_3 {
     public static void main(String[] args){
         Student s = new Student();
         s.name = "홍길동";
@@ -20,6 +20,9 @@ class Student{
     int kor;
     int eng;
     int math;
+    Student(){
+        this("홍길동", 1, 1, 100, 60, 76);
+    }
     Student(String name, int ban, int no, int kor, int eng, int math){
         this.name = name;
         this.ban = ban;

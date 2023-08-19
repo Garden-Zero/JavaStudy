@@ -13,7 +13,7 @@ class SutdaCard{
     }
 }
 
-public class Main {
+public class Pb6_1{
     public static void main(String[] args){
         SutdaCard card1 = new SutdaCard(3, false);
         SutdaCard card2 = new SutdaCard();

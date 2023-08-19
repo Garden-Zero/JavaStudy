@@ -1,4 +1,5 @@
-public class Main {
+public class Pb6_6
+{
     public static void main(String[] args){
         MyPoint p = new MyPoint(1, 1);
 
