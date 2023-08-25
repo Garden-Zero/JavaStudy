@@ -29,7 +29,12 @@ class SutdaDeck{
             cards[randInt] = tmp;
         }
     }
+
     SutdaCard pick(int index){
+        //유효성 검사 필요
+        if(index<0 || index>cards.length){
+            return null;
+        }
         return cards[index];
     }
     SutdaCard pick(){
