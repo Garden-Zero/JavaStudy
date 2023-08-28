@@ -18,9 +18,7 @@ class Buyer{
         int cartSize = cart.length;
         if(pIdx+1 == cartSize){
             Product[] tmpCart = new Product[cartSize * 2];
-            for(int i=0; i<cartSize; i++){
-                tmpCart[i] = cart[i];
-            }
+            System.arraycopy(cart, 0, tmpCart, 0, cartSize);
             cart = tmpCart;
         }
         cart[pIdx++] = p;
